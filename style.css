@@ -91,3 +91,30 @@ th {
     border-radius: 10px;
     text-align: center;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 20px;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+}
+footer p{
+    color: #9E9E9E;
+}
+
+.num{
+    padding: 7px;
+    text-align: center;
+    border-radius: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #E0E0E0;
+}
+
+.num:hover{
+    background-color: #624DE3;
+    color: white;
+}
