@@ -82,3 +82,12 @@ th {
         border-radius: 10px;
         text-align: center;
 }
+
+.clrd_red {
+    width: 65px;
+    padding: 5px;
+    background-color: #FBE7E8;
+    color: #A30D11;
+    border-radius: 10px;
+    text-align: center;
+}
