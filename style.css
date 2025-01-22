@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 20px;
+    align-items: center;
+    margin: auto;
+}
+
+header .left{
+    display: flex;
+    gap: 20px;
+    align-items: center;  
+}
+
+.number{
+    width: 40px;
+    padding: 7px 5px;
+    border: none;
+    background: #E0E0E0;
+    outline: none;
+    border-radius: 10px;
+    
+}
+
+.search{
+    padding: 7px 5px;
+    border-radius: 10px;
+    border-color: #9E9E9E;
+
+}
+
+button{
+    background-color: #624DE3;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 10px;
+}
+
+.search::placeholder{
+
+}
