@@ -40,6 +40,8 @@ button{
 table {
     border-collapse: collapse;
     width: 100%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 th,
@@ -72,3 +74,11 @@ th {
     gap: 5px;
 }
 
+.clrd_or{
+    width: 65px;
+        padding: 5px;
+        background-color: #FEF2E5;
+        color: #CD6200;
+        border-radius: 10px;
+        text-align: center;
+}
