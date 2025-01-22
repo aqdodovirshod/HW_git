@@ -39,10 +39,36 @@ button{
 
 table {
     border-collapse: collapse;
+    width: 100%;
+}
 
+th,
+td {
+    padding: 10px;
+    text-align: left;
 }
 
 th {
-    padding: 5px 10px;
-    text-align: center;
+    text-align: left;
 }
+
+.pic {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.clrd_gr {
+    width: 65px;
+    padding: 5px;
+    background-color: #EBF9F1;
+    color: #1F9254;
+    border-radius: 10px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
