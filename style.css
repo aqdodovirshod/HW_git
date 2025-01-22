@@ -37,6 +37,12 @@ button{
     border-radius: 10px;
 }
 
-.search::placeholder{
+table {
+    border-collapse: collapse;
 
+}
+
+th {
+    padding: 5px 10px;
+    text-align: center;
 }
